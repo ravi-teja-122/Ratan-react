@@ -2,6 +2,7 @@ function App(){
   const cities = ['hyderabad','delhi','kolkata','pune']
   const listCity = cities.map((city,index)=>(<li key={index}>{city}</li>))
   return (<>
+            <h>someone modify</h>
             <h1>Popular Cities</h1>
             <ul>{listCity}</ul>
             <p>First city... {cities[0]}</p>
